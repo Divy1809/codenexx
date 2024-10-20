@@ -2,14 +2,13 @@ import React from 'react'
 import logo from './assets/logo1342.png'
 import code_icon from './assets/Group50.png'
 import codenex from './assets/logo3[1]2.png'
-import instagram from './assets/group22.png'
-import x from './assets/group23.png'
-import linkedin from './assets/group24.png'
-import whatsapp from './assets/group25.png'
-import rectangle8 from './assets/rectangle8.png'
+import instagram from './assets/Group22.png'
+import x from './assets/Group23.png'
+import linkedin from './assets/Group24.png'
+import whatsapp from './assets/Group25.png'
+import rectangle8 from './assets/Rectangle8.png'
 import down from './assets/down.png'
-import rectangle50 from './assets/rectangle50.png'
-import group20 from './assets/group20.png'
+import group20 from './assets/Group20.png'
 import icon076 from './assets/076.png'
 import icon077 from './assets/077.png'
 import E1 from './assets/1.png'
@@ -20,9 +19,7 @@ import E5 from './assets/5.png'
 import E6 from './assets/6.png'
 import E7 from './assets/7.png'
 import E8 from './assets/8.png'
-import nontech from './assets/nontech.png'
-import tech from './assets/tech.png'
-import creative from './assets/creative.png'
+
 
 
 function App() {
@@ -32,7 +29,7 @@ function App() {
 
       <div>
         <div className="absolute top-[4.6vh] left-[5.2vh]" >
-          <img src={logo} alt="Logo" className="w-[63px] h-[63px]" />
+          <img src={logo} alt="Logo" className="max-w-63px h-[63px]" />
         </div>
         <div className="absolute top-[3.38vh] left-[52%]" >
   <nav className="flex justify-center items-center p-6 bg-transparent">
@@ -63,7 +60,7 @@ function App() {
 
       <div>
         <div className='absolute top-[26.38vh] left-[67%]' >
-          <img src={code_icon} alt="" className='w-[59.93vh] h-[64.14vh]' />
+          <img src={code_icon} alt=""  style={{maxWidth:'59.93vh', maxHeight:'64.14vh'}}/>
         </div>
         <div className='absolute top-[42.62vh] left-[18.8vh]' >
           <h1 className='w-[91.47vh] h-[19.35vh]' style={{
